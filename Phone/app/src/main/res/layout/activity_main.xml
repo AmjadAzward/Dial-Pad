@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:enabled="false" />
+
+    <GridLayout
+        android:id="@+id/dialPad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:layout_marginTop="20dp">
+
+        <!-- Number buttons -->
+        <Button android:text="1" style="@style/DialButton"/>
+        <Button android:text="2" style="@style/DialButton"/>
+        <Button android:text="3" style="@style/DialButton"/>
+        <Button android:text="4" style="@style/DialButton"/>
+        <Button android:text="5" style="@style/DialButton"/>
+        <Button android:text="6" style="@style/DialButton"/>
+        <Button android:text="7" style="@style/DialButton"/>
+        <Button android:text="8" style="@style/DialButton"/>
+        <Button android:text="9" style="@style/DialButton"/>
+        <Button android:text="*" style="@style/DialButton"/>
+        <Button android:text="0" style="@style/DialButton"/>
+        <Button android:text="#" style="@style/DialButton"/>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
