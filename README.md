@@ -2,6 +2,8 @@
 
 This is a simple Dial Pad Android application built using **Java** in **Android Studio**. It mimics the core functionality of a typical dialer interface and allows initiating phone calls directly through the native phone system.
 
+![Dial Pad Screenshot](https://raw.githubusercontent.com/AmjadAzward/Dial-Pad/main/Images/WhatsApp%20Image%202025-06-19%20at%2011.57.47_d03478bb.jpg)
+
 ---
 
 ##  Features
